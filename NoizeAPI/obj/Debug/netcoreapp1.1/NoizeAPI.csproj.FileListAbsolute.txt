@@ -1,0 +1,9 @@
+c:\users\mgscu\onedrive\documents\visual studio 2017\Projects\NoizeAPI\NoizeAPI\bin\Debug\netcoreapp1.1\NoizeAPI.deps.json
+c:\users\mgscu\onedrive\documents\visual studio 2017\Projects\NoizeAPI\NoizeAPI\bin\Debug\netcoreapp1.1\NoizeAPI.runtimeconfig.json
+c:\users\mgscu\onedrive\documents\visual studio 2017\Projects\NoizeAPI\NoizeAPI\bin\Debug\netcoreapp1.1\NoizeAPI.runtimeconfig.dev.json
+c:\users\mgscu\onedrive\documents\visual studio 2017\Projects\NoizeAPI\NoizeAPI\bin\Debug\netcoreapp1.1\NoizeAPI.dll
+c:\users\mgscu\onedrive\documents\visual studio 2017\Projects\NoizeAPI\NoizeAPI\bin\Debug\netcoreapp1.1\NoizeAPI.pdb
+c:\users\mgscu\onedrive\documents\visual studio 2017\Projects\NoizeAPI\NoizeAPI\obj\Debug\netcoreapp1.1\NoizeAPI.csprojResolveAssemblyReference.cache
+c:\users\mgscu\onedrive\documents\visual studio 2017\Projects\NoizeAPI\NoizeAPI\obj\Debug\netcoreapp1.1\NoizeAPI.AssemblyInfo.cs
+c:\users\mgscu\onedrive\documents\visual studio 2017\Projects\NoizeAPI\NoizeAPI\obj\Debug\netcoreapp1.1\NoizeAPI.dll
+c:\users\mgscu\onedrive\documents\visual studio 2017\Projects\NoizeAPI\NoizeAPI\obj\Debug\netcoreapp1.1\NoizeAPI.pdb
