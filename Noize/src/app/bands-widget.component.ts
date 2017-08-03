@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {Band} from './band'
+import {BandButtonState} from './band'
 import {BandDetailComponent} from './band-detail.component'
 
 
@@ -9,6 +10,8 @@ var Bands: Band[] = [
   {bandId: 3, bandName:'Daft Punk'},  
 ];
 
+var bandButtonStateObj: BandButtonState = {  buttonText: "Edit", disableEdit: true}
+
 @Component({
   selector: 'bands-widget',
   templateUrl: './bands-widget.html',
@@ -16,12 +19,15 @@ var Bands: Band[] = [
 })
 export class BandsWidgetComponent {
   bands = Bands;
-  selectedBand: Band;
+  selectedBand: Band;  
+  bandButtonState = bandButtonStateObj;
+  disableEdit = true;
+  buttonText = "Edit";  
 
   onSelect(band: Band): void {    
   this.selectedBand = band;
-  //this.buttonText = "Edit";
-  //this.disableEdit = true;
+  this.bandButtonState.buttonText = "Edit";
+  this.bandButtonState.disableEdit = true;
   }
 }
 

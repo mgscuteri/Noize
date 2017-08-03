@@ -1,5 +1,6 @@
 import {Component, Input} from '@angular/core';
 import {Band} from './band'
+import {BandButtonState} from './band'
 
 
 @Component({
@@ -9,15 +10,16 @@ import {Band} from './band'
 })
 export class BandDetailComponent {
   @Input() selectedBand: Band;
-  disableEdit = true;
-  buttonText = "Edit";
+  @Input() bandButtonState: BandButtonState
+  //disableEdit = true;
+  //buttonText = "Edit";
   
   editBand(): void{            
-   this.disableEdit = !this.disableEdit;
-   if(this.disableEdit)
-     this.buttonText = "Edit"
+   this.bandButtonState.disableEdit = !this.bandButtonState.disableEdit;
+   if(this.bandButtonState.disableEdit)
+     this.bandButtonState.buttonText = "Edit"
    else  
-     this.buttonText = "Save";      
+     this.bandButtonState.buttonText = "Save";      
   }
 }
 
