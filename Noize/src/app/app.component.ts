@@ -20,9 +20,19 @@ export class AppComponent {
   title = 'Noize';
   bands = Bands;
   selectedBand: Band;
+  disableEdit = true;
+  buttonText = "Edit";
 
   onSelect(band: Band): void {    
     this.selectedBand = band;
+  }
+  editBand(): void{            
+    this.disableEdit = !this.disableEdit;
+    if(this.disableEdit)
+      this.buttonText = "Edit"
+    else  
+      this.buttonText = "Save";
+      
   }
 }
 

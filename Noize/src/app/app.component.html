@@ -9,12 +9,10 @@
     <span class = "badge"> {{band.bandId}} </span> {{band.bandName}}     
   </li>
 
-  <div *ngIf="selectedBand">
-    <Strong> Selected Band Details </Strong>
-    <br>
-    <br> <span class = "badge"> {{selectedBand.bandName}} </span>
-    <br> {{selectedBand.bandId}}
-    <br> EDIT: <input [(ngModel)]="selectedBand.BandName">
+  <div *ngIf="selectedBand" width = 100%> 
+    <span class = "subTitle"> Selected Band Details </span>    
+    <br>ID: {{selectedBand.bandId}}
+    <br>Name: <input [(ngModel)]="selectedBand.bandName" [disabled]="disableEdit"> <button (click)="editBand()" class ="button button2"> {{buttonText}} </button>
   </div>
 
 </div>
