@@ -1,0 +1,8 @@
+
+
+
+  <div *ngIf="selectedBand" width = 100%> 
+    <span class = "subTitle"> Selected Band Details </span>    
+    <br>ID: {{selectedBand.bandId}}
+    <br>Name: <input [(ngModel)]="selectedBand.bandName" [disabled]="disableEdit"> <button (click)="editBand()" class ="button button2"> {{buttonText}} </button>
+  </div>

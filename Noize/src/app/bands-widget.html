@@ -1,0 +1,13 @@
+ 
+<h1>Bands</h1>
+
+<div container class = "container" >
+
+  <li *ngFor="let band of bands" [class.selected]="band === selectedBand" (click)="onSelect(band)" >
+    <span class = "badge"> {{band.bandId}} </span> {{band.bandName}}     
+  </li>
+
+  <band-detail [selectedBand] = "selectedBand"> </band-detail>
+
+</div>
+<!-- band detail component -->
