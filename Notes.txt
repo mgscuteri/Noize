@@ -1,0 +1,36 @@
+++++ DB
+User: mgscu
+pass: GreenG1ant
+
+++++ Name
+Noize-r-us
+NoiseCentral
+
+++++ To do
+Put project on GIT
+	- Create database deploy scripts 
+Expose database using webapi
+Create front end 
+
+
+++++ Features
+Users likes a band
+
+Users can report fake links/events
+
+Prefered Users Can bulk upload/report
+
+User sees all upcoming events for band they like
+	-Within given range of
+		- Default to home address
+		- Allow other address
+
+User can save an event
+User can filter view to only saved events 
+
+
+Future ways to monitize
+	User can buy/sell tickets
+	Suggested events side bar (paid advertisments) 
+
+
