@@ -9663,10 +9663,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\mgscu\\onedrive\\documents\\visual studio 2017\\Projects\\NoizeAPI\\NoizeAPI\\NoizeAPI.csproj",
+      "projectUniqueName": "C:\\Users\\mgscu\\Desktop\\Docs\\Code\\0-Noize-R-Us\\NoizeAPI\\NoizeAPI.csproj",
       "projectName": "NoizeAPI",
-      "projectPath": "c:\\users\\mgscu\\onedrive\\documents\\visual studio 2017\\Projects\\NoizeAPI\\NoizeAPI\\NoizeAPI.csproj",
-      "outputPath": "c:\\users\\mgscu\\onedrive\\documents\\visual studio 2017\\Projects\\NoizeAPI\\NoizeAPI\\obj\\",
+      "projectPath": "C:\\Users\\mgscu\\Desktop\\Docs\\Code\\0-Noize-R-Us\\NoizeAPI\\NoizeAPI.csproj",
+      "outputPath": "C:\\Users\\mgscu\\Desktop\\Docs\\Code\\0-Noize-R-Us\\NoizeAPI\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
