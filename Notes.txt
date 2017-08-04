@@ -6,6 +6,10 @@ pass: GreenG1ant
 Noize-r-us
 NoiseCentral
 
+++++ Hosting
+Lifehacker post on 4 best hosting services:
+http://gear.lifehacker.com/these-are-the-four-best-web-hosting-services-as-chosen-1797507999
+
 ++++ To do
 Put project on GIT
 	- Create database deploy scripts 
