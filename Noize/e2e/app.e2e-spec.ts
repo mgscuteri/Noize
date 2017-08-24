@@ -1,10 +1,10 @@
-import { NoizePage } from './app.po';
+import { AppPage } from './app.po';
 
 describe('noize App', () => {
-  let page: NoizePage;
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new NoizePage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {
