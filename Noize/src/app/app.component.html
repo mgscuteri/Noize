@@ -1,18 +1,22 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 <div class="btn-group">
-  <button class="button">Bands</button>
+  <button class="button" routerLink="/"> Home </button>
+  <button class="button" routerLink="/bands"> Bands </button>
   <button class="button">Venues</button>
   <button class="button">Events</button>
   <button class="button">Likes</button>
 </div>
 <p style="clear:both">
 
- <bands-widget></bands-widget>
+<router-outlet></router-outlet>
 
 
 
 <!--
+
+<bands-widget></bands-widget>
+
 <div container class = "container" >
 
   <li *ngFor="let band of bands" [class.selected]="band === selectedBand" (click)="onSelect(band)" >

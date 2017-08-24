@@ -4,8 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms';
 import {BandDetailComponent} from './band-detail.component'
 import {BandsWidgetComponent} from './bands-widget.component'
-
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,13 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot([
+      {
+        path: 'bands',
+        component: BandsWidgetComponent
+      }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
