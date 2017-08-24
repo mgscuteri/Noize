@@ -17,7 +17,7 @@ h1 {
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
-  width: 22%;
+  width: 27%;
 }
 .container li {
   cursor: pointer;
@@ -91,6 +91,7 @@ h1 {
 }
 .button2 {
     background-color: white; 
+    width: 60px;
     color: black; 
     border: 2px solid #008CBA;
 }

@@ -19,15 +19,17 @@ export class BandsWidgetComponent implements OnInit {
   bands: Band[];
   selectedBand: Band;  
   bandButtonState = bandButtonStateObj;
+  bandName = "";
   disableEdit = true;
   buttonText = "Edit";  
 
   constructor(private bandService: BandService) { }
 
-  onSelect(band: Band): void {    
-  this.selectedBand = band;
-  this.bandButtonState.buttonText = "Edit";
-  this.bandButtonState.disableEdit = true;
+  onSelect(band: Band): void {          
+    this.selectedBand = band;  
+    this.bandName = this.selectedBand.bandName;    
+    this.bandButtonState.buttonText = "Edit";
+    this.bandButtonState.disableEdit = true;
   }
   getBands(): void {
     this.bandService.getBands().then(bands => this.bands = bands);
